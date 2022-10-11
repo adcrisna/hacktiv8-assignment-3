@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cuaca</title>
+  <meta http-equiv="refresh" content="3" >
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container" style="padding-top: 35vh;">
+        <div class="row align-self-center w-99">
+            <div class="col-2 mx-auto">
+                <div>
+                    <p> Satus Cuaca Sekarang</p>
+                    <h1>{{ .Status }}</h1>
+                    <p>
+                        Water : {{ .Water }} <br/> Wind : {{ .Wind }}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
